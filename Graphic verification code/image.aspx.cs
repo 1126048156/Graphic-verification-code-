@@ -75,7 +75,7 @@ namespace Graphic_verification_code
                 String str1 = gb.GetString((byte[])Convert.ChangeType(byt, typeof(byte[])));
                 s = s + str1;
             }
-            Session["chinese"] = s;
+            Session["ran"] = s;
             return s;
         }
 
@@ -102,7 +102,7 @@ namespace Graphic_verification_code
                 int t = ran.Next(num.Length);//产生一个小于num.Length的数字
                 s += num[t];
             }
-            Session["letters"] = s.ToLower();
+            Session["ran"] = s.ToLower();
             return s;
         }
         //获取随机数字
@@ -118,7 +118,7 @@ namespace Graphic_verification_code
                 int t = ran.Next(num.Length);//产生一个小于num.Length的数字
                 s += num[t];
             }
-            Session["numbers"] = s;
+            Session["ran"] = s;
             return s;
         }
         //获取数字英文混合
@@ -148,7 +148,7 @@ namespace Graphic_verification_code
                  int t = ran.Next(num.Length);//产生一个小于num.Length的数字
                  s += num[t];
              }
-             Session["mixture"] = s.ToLower();
+             Session["ran"] = s.ToLower();
              return s;
          }
         //创建图片
