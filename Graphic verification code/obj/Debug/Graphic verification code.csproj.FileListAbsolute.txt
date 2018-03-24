@@ -1,0 +1,6 @@
+E:\Web\Graphic verification code\Graphic verification code\bin\Graphic verification code.dll.config
+E:\Web\Graphic verification code\Graphic verification code\bin\Graphic verification code.dll
+E:\Web\Graphic verification code\Graphic verification code\bin\Graphic verification code.pdb
+E:\Web\Graphic verification code\Graphic verification code\obj\Debug\Graphic verification code.csprojResolveAssemblyReference.cache
+E:\Web\Graphic verification code\Graphic verification code\obj\Debug\Graphic verification code.dll
+E:\Web\Graphic verification code\Graphic verification code\obj\Debug\Graphic verification code.pdb
