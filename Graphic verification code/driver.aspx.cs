@@ -16,7 +16,7 @@ namespace Graphic_verification_code
        
              protected void Button1_Click1(object sender, EventArgs e)
         {
-            if (TextBox1.Text.ToString() == Session["ran"].ToString())
+            if (TextBox1.Text.ToLower() == Session["ran"].ToString())
             {
                 Response.Write("成功！");
                 TextBox1.Text = "";
